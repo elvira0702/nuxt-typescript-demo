@@ -1,6 +1,7 @@
 # nuxt-typescript-demo
 
 nuxt.js + typescript + vuex，最近从零到一开发了一个门户网站，因对seo有要求，所以选择nuxt.js搭配typescript，期间遇到不少问题，最终都一一解决了，留下一个demo供参考，希望能帮到有需要的人。
+附上我的原创总结：https://segmentfault.com/a/1190000023403163
 
 # $axios
 
