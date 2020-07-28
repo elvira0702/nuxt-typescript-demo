@@ -1,0 +1,32 @@
+// 项目样式通用变量，在nuxt.config.js的 modules中添加@nuxtjs/style-resources， 然后在styleResources 中添加路径后即可在项目中使用
+$theme-color: #2169D0;
+$theme-color-dark: #0649AA;
+$theme-color-light: rgba(95,155,241,0.1);
+$second-color: #F1632D;
+$third-color: #FF3B30;
+$white-color: #ffffff;
+
+$theme-color-light-1: mix($white-color, $theme-color, 10%) !default; 
+$theme-color-light-2: mix($white-color, $theme-color, 20%) !default; 
+$theme-color-light-3: mix($white-color, $theme-color, 30%) !default; 
+$theme-color-light-4: mix($white-color, $theme-color, 40%) !default; 
+$theme-color-light-5: mix($white-color, $theme-color, 50%) !default; 
+$theme-color-light-6: mix($white-color, $theme-color, 60%) !default; 
+$theme-color-light-7: mix($white-color, $theme-color, 70%) !default; 
+$theme-color-light-8: mix($white-color, $theme-color, 80%) !default; 
+$theme-color-light-9: mix($white-color, $theme-color, 90%) !default;
+
+$banner-shade: mix(transparent, $theme-color-dark, 30%) !default; 
+
+$subMenuBg:$theme-color-light;
+$subMenuHover: $theme-color-light-5;
+$subMenuActiveText:#f4f4f5;
+$menuBg:$theme-color-light;
+$menuText:$theme-color-light-3;
+$menuActiveText:$theme-color;
+
+:export {
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+}
