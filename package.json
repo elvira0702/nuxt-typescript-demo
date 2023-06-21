@@ -18,7 +18,7 @@
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "cookie-universal-nuxt": "^2.1.4",
     "element-ui": "^2.13.2",
-    "nuxt": "^2.13.0",
+    "nuxt": "^3.4.3",
     "screenfull": "^5.0.1",
     "vue-class-component": "^7.2.4",
     "vue-property-decorator": "^9.0.0",
